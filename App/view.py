@@ -98,7 +98,8 @@ def lastBook(control):
     """
     Devuelve el último libro cargado
     """
-    pass
+    last = lastBook(control)
+    print("Último libro cargado:\n" + str(last) + "\n")
 
 
 # Se crea el controlador asociado a la vista
